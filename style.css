@@ -1,0 +1,30 @@
+.hero-section {
+  background: url("background.jpg") center center / cover repeat;
+  height: 600px;
+  padding: 60px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 112px;
+  left: 1280px;
+  height: 656px;
+  width: 1280px;
+  background-color: #091520; 
+  z-index: -180;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  color: #fff;
+}
+#back-img{
+  background-image: url("img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
